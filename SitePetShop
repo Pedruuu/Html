@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="widh-device-widh, initial-scale-1.0">
+    <link rel="stylesheet" href="css/site.css">
+    <title>PetShop Mary & Gabi</title>
+</head> 
+
+<body>
+    <header>
+        <h1>
+            <img src="img/logo-mari-e-gabi-petshop.svg" alt="">
+        </h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#produtos">Protudos</a></li>
+            <li><a href="#servicos">Seviços</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+    <article class="fundo-verde"> 
+        <div class="container flex-container">
+
+            <div class="col">
+                <h2>SOBRE NÓS</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, assumenda maiores. Nulla repellat rerum dignissimos, officiis quasi nobis neque inventore placeat assumenda dicta rem, ipsam architecto porro culpa non exercitationem!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit dolore non magnam perferendis, molestias dolores similique quas voluptas tempore ipsum aut accusamus cumque dolorem nostrum animi ipsa, earum debitis id.</p>
+
+            </div>
+            <div class="col">
+
+                <img src="img/img-sobre.jpg" alt="cachorros">     
+
+            </div>
+        </div> 
+        
+    </article>
+
+    <article id="produtos">
+        <div class="container">
+            
+            <h2 class="texto-centralizado">Produtos</h2>
+            <p class="texto-centralizado">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam nesciunt veniam reprehenderit eligendi soluta vitae distinctio veritatis eius totam, doloribus ad atque temporibus sint, velit facere quisquam iure, fuga rem?</p>
+
+            <div class="flex-container">
+                <article class="produto">
+                    <figure>
+                        <img src="img/produto-1.jpg" alt="Produto Pet Produto 1">
+                    </figure>
+                    <h3>Pet Produto #1</h3>
+                    <p>R$ 150,00</p>
+                    <a href="#" class="btn-pata">
+                        <img src="img/patinha-preta.png" alt="Patinha">
+                        comprar
+                    </a>
+                </article>
+                <article class="produto">
+                    <figure>
+                        <img src="img/produto-2.jpg" alt="Produto Pet Produto 2">
+                    </figure>
+                    <h3>Pet Produto #2</h3>
+                    <p>R$ 150,00</p>
+                    <a href="#" class="btn-pata">
+                        <img src="img/patinha-preta.png" alt="Patinha">
+                        comprar
+                    </a>
+                </article>
+                <article class="produto">
+                    <figure>
+                        <img src="img/produto-3.jpg" alt="Produto Pet Produto 3">
+                    </figure>
+                    <h3>Pet Produto #3</h3>
+                    <p>R$ 150,00</p>
+                    <a href="#" class="btn-pata">
+                        <img src="img/patinha-preta.png" alt="Patinha">
+                        comprar
+                    </a>
+                </article>
+            </div>
+
+        </div>
+    </article>
+
+    <article class="fundo-verde" id="servicos">
+        <div class="container  flex-container">
+
+            <div class="col">
+                <h2>Serviços</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quidem voluptatibus commodi ipsa, laboriosam consequatur et unde voluptatum, alias iusto voluptates libero tempore accusantium repellat dignissimos enim necessitatibus? Dignissimos, quis?</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure reprehenderit culpa provident, voluptas maiores amet excepturi odit est error cupiditate ad dolor ipsum pariatur in optio eveniet dolorum labore non.</p>
+            </div>
+
+            <div class="col">
+                <img src="img/img-galeria-1.jpg" alt="">
+                <img src="img/img-galeria-2.jpg" alt="">
+                <img src="img/img-galeria-3.jpg" alt="">
+                <img src="img/img-galeria-4.jpg" alt="">
+            </div>
+
+        </div>
+    </article>
+
+    <article id="contato">
+        <div class="container">
+            <div class="texto-centralizado">
+                <h2>Contato</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt veniam eveniet rem! 
+                    Atque commodi iusto suscipit consequuntur soluta recusandae dolores voluptatum 
+                    voluptatibus vero totam. Neque ab eaque deleniti nobis quidem!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt veniam eveniet rem! 
+                    Atque commodi iusto suscipit consequuntur soluta recusandae dolores voluptatum 
+                    voluptatibus vero totam. Neque ab eaque deleniti nobis quidem!</p>
+            </div>
+            <div class="flex-container">
+                <div class="col">
+                    <!--FORM-->
+                    <form>
+                    <label for="nome">
+                        <strong>Nome:</strong>
+                        <input type="text" id="nome" 
+                        placeholder="Insira o seu nome completo">
+                    </label>
+                    <label for="email">
+                        <strong>E-mail:</strong>
+                        <input type="e-mail" id="email" 
+                        placeholder="seue-mail@dominio.com.br">
+                    </label>
+                    <label for="tel">
+                        <strong>Tel:</strong>
+                        <input type="tel" id="tel" 
+                        placeholder="11-0000-0000">
+                    </label>
+                    <label for="assunto">
+                        <strong>Assunto:</strong>
+                        <input type="text" id="assunto" 
+                        placeholder="Insira aqui o assunto da mensagem">
+                    </label>
+                    <label for="msg">
+                        <strong>Mensagem:</strong>
+                        <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+                    </label>
+                    <div>
+                        <button class="btn-pata">
+                            <img src="img/patinha-preta.png"
+                            alt="Pata preta">
+                            Enviar
+                        </button>
+                    </div>
+                </form>
+                </div>
+                <div class="col">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3653.399970389831!2d-46.76853948506916!3d-23.697406772515368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5212f9627de5%3A0x1c5ccd29c1a3e96a!2sEtec%20Jardim%20%C3%82ngela!5e0!3m2!1spt-BR!2sbr!4v1621473218657!5m2!1spt-BR!2sbr" 
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <p>Endereço: Estrada Baronesa, 1695 - Jardim 
+                    Nakamura <br> São Paulo<br></p>
+                        <strong>CEP:</strong><span>04941-175</span>
+                        <strong>Tel:</strong><span>(11)5833-0861</span>
+
+                        
+
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <footer>
+        <div class="container">
+            <p>Copyright &copy; 2021 <strong>Mary e Gabi</strong> I todos os direitos reservados</p>
+            <p>By PWI - Turma A</p>
+        </div>
+    </footer>
+
+</body>
+
+
+</html>
+
+
+CSS
+
+C*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+/* ----Cabeçalho-------- */
+header {
+    background-image: url("imagem/fundo-topo.jpg");
+    text-align: center;
+    padding: 10px;
+}
+
+header h1 {
+    margin: 0;
+    height: 84px;
+}
+
+/* ---- Menu -------- */
+nav li {
+    display: inline;
+    background-image: url(imagem/patinha-preta.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    padding-right: 27px;
+    margin-right: 10px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+nav {
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav a:hover {
+    transition-delay: 2ms;
+    color: #6dd432;
+}
+/* ----Frame Sobre-------- */
+.fundo-verde {
+    background-color: #bdff9c;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.flex-container .col {
+    width: 430px;
+}
+
+/* ----------Produtudos--------- */
+
+.texto-centralizado {
+    text-align: center;
+}
+
+.produto {
+    width: 235px;
+}
+
+.produto figure {
+    border: 1px solid #c4c4c4;
+    background-color: #fff;
+    margin-top: 15px;
+    text-align: center;
+    line-height: 160px;
+    padding: 0;
+}
+
+.produto figure img {
+    vertical-align: middle;
+}
+
+.btn-pata {
+    border: 1px solid #91e467;
+    background-color: #d2fbbd;
+    text-decoration: none;
+    color: #000;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.container p {
+    margin-bottom: 10px;
+}
+
+#produtos .flex-container, #contato .flex-container{
+    margin-top: 43px;
+}
+
+form{
+    width: 380px;
+}
+
+form input,
+form textarea{
+    width: 100%;
+    border: 1px solid #6dd432;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+iframe{
+    width: 100%;
+}
+
+footer{
+    text-align: center;
+    border-top: 1px solid #6dd432;
+    font-size: 12px;
+    padding: 20px 0;
+}
